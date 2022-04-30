@@ -1,4 +1,4 @@
-# Elixir Parser
+# The Greatest ParsElixir
 
 <h2> Team Members </h2>
 <ul>
