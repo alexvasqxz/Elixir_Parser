@@ -46,3 +46,9 @@ In this case, the team counts on each value entered between quotation marks, for
 <p>
 We will be reading a file from elixir, and from that file we will be reading line by line and start storing each line into a list, then we will need to read that list of list for each individual line we read and start applying the conditions we see pertinent in other to start parsing into the html and Css style. For this it my be helpful to have already like a dictionary of the majority of reserved words, like variables or functions or example, so when we are traversing the list w each iteration if we happen to find a string or values that matches something on that dictionary we can also automatically parse it  
 </p>
+
+<h2> IV. Related Topics </h2>
+<p>
+By approaching our solution with the one described in the scope we realized that we will need to use <b> recursion </b> in order to iterate through the document line by line. This recursion will be optimized in order to save time complexity using pattern matching, an approach seen in class that allows us to do recursion in a quicker and cleaner way. <br>
+  We will also make use of the topics of files, which we have not covered yet but will soon, so keep an update for this section in the future ...
+</p>
