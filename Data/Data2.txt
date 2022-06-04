@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <header>
+      <div>
+        <div>
+          <div></div>
+          <div>
+            <img src="img/hero.png" alt="My Picture" />
+          </div>
+        </div>
+
+        <div>
+          <h1>Hi! I'm <span>Gus Vasquez.</span></h1>
+          <p>
+            I am a Junior Computer Science student at the University Tec de
+            Monterrey in Monterrey, Mexico. I am an eager and passionate person
+            when it comes to technology and implementing it to solve today's
+            biggest problems and fighting for what I believe is right.
+          </p>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
