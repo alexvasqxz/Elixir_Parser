@@ -11,23 +11,23 @@
 <p>
 Within this investigation and project, the team discussed the final project for the Programming Languages class. This project covers the creation of an HTML parser, using the Elixir Programming language. This project was developed using the team's knowledge in Functional Programming, Recursion, Lists and File I/O; all this knowledge was acquire by the team thanks to Professor Gilberto Echeverria who was the Professor of the class. <br>
 In order to run this code here is a list of steps to follow:
-<ul>
 <ol>
+<li>
 Clone this repository into your local machine
-</ol>
-<ol>
+</li>
+<li>
 Add the desired HTML text you'd like to parse to the "data.txt" file located in Elixir_Parser >> Code >> data.txt, you can use some of the examples found in Elixir_Parser >> Data
-</ol>
-<ol>
+</li>
+<li>
 Open the code path in your local machine by going to Elixir_Parser >> Code >> iex code.ex
-</ol>
-<ol>
+</li>
+<li>
 Run the command Parser.main("data.txt", "result.html"), note that both data.txt and result.html files already exist in order to make things easier, please do not move nor remove them
-</ol>
-<ol>
+</li>
+<li>
 See the result in the result.html file, which you can open in your browser too
+</li>
 </ol>
-</ul>
 </p>
 
 <h2> II. Research Topic </h2>
