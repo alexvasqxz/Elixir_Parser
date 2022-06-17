@@ -77,23 +77,20 @@ defmodule Parser do
   # order to be visualized in the web page
   def check_conditions(loc) do
     # Modify syntax in order to be changed
-    loc = String.replace(loc, ~r/(<(.*?))/, "&lt;")
-    loc = String.replace(loc, ~r/(>)/, "&gt;")
-
+    _result = loc
+    |> String.replace(~r/(<(.*?))/, "&lt;")
+    |> String.replace(~r/(>)/, "&gt;")
     # Check and Change opening and closing brackets
-    loc = String.replace(loc, ~r/(&lt;(.*?))/, "<span class='code-elem'>&lt;")
-    loc = String.replace(loc, ~r/(&gt;)/, "&gt;</span>")
-
+    |> String.replace(~r/(&lt;(.*?))/, "<span class='code-elem'>&lt;")
+    |> String.replace(~r/(&gt;)/, "&gt;</span>")
     # Check and change the doctype tag
-    loc = String.replace(loc, ~r/(&lt;!DOCTYPE html&gt;)/, "<span class='code-doc'>&lt;!DOCTYPE html&gt;</span>")
-
+    |> String.replace(~r/(&lt;!DOCTYPE html&gt;)/, "<span class='code-doc'>&lt;!DOCTYPE html&gt;</span>")
     # Check and change the quoted elements
-    loc = String.replace(loc, ~r/(="(.*?))/, "=<span class='code-quot'>&quot;")
-    loc = String.replace(loc, ~r/(")/, "&quot;</span>")
-
+    |> String.replace(~r/(="(.*?))/, "=<span class='code-quot'>&quot;")
+    |> String.replace( ~r/(")/, "&quot;</span>")
     # Check and change comments
-    loc = String.replace(loc, ~r/(&lt;!--(.*?))/, "<span class='code-comm'>&lt;!--")
-    loc = String.replace(loc, ~r/(--&gt;)/, "--&gt;</span>")
+    |> String.replace(~r/(&lt;!--(.*?))/, "<span class='code-comm'>&lt;!--")
+    |> String.replace(~r/(--&gt;)/, "--&gt;</span>")
   end
 
 end

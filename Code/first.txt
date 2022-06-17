@@ -18,7 +18,7 @@
             line-height: 1.5em;
             font-family: "Lucida Console", Monaco, monospace;
         }
-        .code-doc { color:#ADD8E6; }
+        .code-doc { color:#0000FF; }
         .code-quot { color:#00FF00; }
         .code-type { color:#FFA500; }
         .code-elem { color:#D2042D; }
