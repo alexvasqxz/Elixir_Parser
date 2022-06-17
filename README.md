@@ -9,7 +9,25 @@
 
 <h2> I. Abstract </h2>
 <p>
-  Within this investigation our team will discuss the final project for the programming languages class. This project will cover the creation of a html and css parser, using the Elixir programming language. The project will develop the knowledge of the team of Functional programming, Recursion, Lists and File I/O. How it will be implemented will be explained along the document.
+Within this investigation and project, the team discussed the final project for the Programming Languages class. This project covers the creation of an HTML parser, using the Elixir Programming language. This project was developed using the team's knowledge in Functional Programming, Recursion, Lists and File I/O; all this knowledge was acquire by the team thanks to Professor Gilberto Echeverria who was the Professor of the class. <br>
+In order to run this code here is a list of steps to follow:
+<ul>
+<ol>
+Clone this repository into your local machine
+</ol>
+<ol>
+Add the desired HTML text you'd like to parse to the "data.txt" file located in Elixir_Parser >> Code >> data.txt, you can use some of the examples found in Elixir_Parser >> Data
+</ol>
+<ol>
+Open the code path in your local machine by going to Elixir_Parser >> Code >> iex code.ex
+</ol>
+<ol>
+Run the command Parser.main("data.txt", "result.html"), note that both data.txt and result.html files already exist in order to make things easier, please do not move nor remove them
+</ol>
+<ol>
+See the result in the result.html file, which you can open in your browser too
+</ol>
+</ul>
 </p>
 
 <h2> II. Research Topic </h2>
@@ -20,21 +38,17 @@ HTML stands for Hypertext, a text or embedded images that is organized in order 
 <p>
   Our team focuses on the following HTML elements for the parser. Each color for each element is described in the following paragraphs.
   <ul>
-  <li> Tags (purple)
+  <li> Tags (red)
     <p>
 Tags define the markup for a web page. There are several tags to create heading, paragraphs, among many other examples. They are characterized by an opening tag, which is a left angle bracket, a character and a right angle bracket and a closing tag that has the left angle bracket, a slash, a character and a right-angle bracket. Inside the tag, the user will write what they want to display as a paragraph. This dynamic is used for all the html documents. 
 </p>
     </li>
-  <li> Semantic Tags (blue) 
+  <li> Semantic Tags (green) 
     <p>
 Semantic tags are used in HTML to describe its meaning to both the browser and the developer.
 </p>
     </li>
-  <li> Attributes (green) 
-        <p>
-Tags have attributes that are placed inside the opening tag, they take values, which give information about the element and help style and manipulate the elements in CSS or JavaScript. </p>
-    </li>
-  <li> Text (red)
+  <li> Text (white)
             <p>
 In this case, the team counts on each value entered between quotation marks, for example “classValue”. The text will be denoted when assigning classes, id’s, between other attributes. 
     </p>
@@ -49,6 +63,19 @@ We will be reading a file from elixir, and from that file we will be reading lin
 
 <h2> IV. Related Topics </h2>
 <p>
-By approaching our solution with the one described in the scope we realized that we will need to use <b> recursion </b> in order to iterate through the document line by line. This recursion will be optimized in order to save time complexity using pattern matching, an approach seen in class that allows us to do recursion in a quicker and cleaner way. <br>
-  We will also make use of the topics of files, which we have not covered yet but will soon, so keep an update for this section in the future ...
+By approaching our solution with the one described in the scope we used the following topics seen during class:
+<ul>
+<li>
+Recursion: We use this topic to traverse our lists with tail recursion, optimizing our solution and being able to modify each element of the list by going one by one
+</li>
+<li>
+Lists: We use lists to store important data, retrieve it, modify it and then put it all together to have our final result
+</li>
+<li>
+Files I/O: We use file input and output to print our result into a web page format and customize it, we also use this subject in order to retrieve data from pre-existing files
+</li>
+<li>
+Regex: We also use regex to check conditions in order to color our HTML elements
+</li>
+</ul>
 </p>

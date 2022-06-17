@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <style>
+        body { background-color: #000; }
+        h1 {
+            color: #FFF;
+            justify-content: center;
+            text-align: center;
+        }
+        code {
+            color: #FFF;
+            display: block;
+            white-space: pre-wrap;
+            border: 2.5px solid #000;
+            padding: 50px;
+            line-height: 1.5em;
+            font-family: "Lucida Console", Monaco, monospace;
+        }
+        .code-doc { color:#ADD8E6; }
+        .code-quot { color:#00FF00; }
+        .code-type { color:#FFA500; }
+        .code-elem { color:#D2042D; }
+        .code-comm { color:#808080; }
+    </style>
+    </head>
+
+    <body>
+        <h1> The Greatest ParsElixir! </h1>
+        <code>
