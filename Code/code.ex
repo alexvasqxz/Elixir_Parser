@@ -51,7 +51,7 @@ defmodule Parser do
   def get_code(filename) do
     _loc = filename
     |> File.stream!()
-    |> Enum.map(&String.trim/1)
+    |> Enum.map(&String.trim_trailing/1)
   end
 
   # Function change_code
